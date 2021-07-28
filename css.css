@@ -1,0 +1,63 @@
+#quoteContainer {
+	font-size: 8vw;
+	text-align: center;
+	background-image: linear-gradient(45deg, yellow,   #33cccc);
+	width: 100%;
+	min-height: 20px;
+	padding-bottom: 5px;
+	transition-property: background-color;
+	transition-duration: 1s;
+}
+
+#quoteContainer:active {
+	background-image: none;
+background-color: #bfbfbf;
+	transform: translateX(6px);
+}
+
+
+.subDives {
+	font-size: 2vw;
+	color: #e6e6e6;
+	text-align: left;
+	padding-bottom: 5px;
+	float: left;
+	
+}
+.subDives:hover {
+	color: #000000;
+
+}
+#dedication {
+	float: right;
+}
+#tmpForCopyTxtArea {
+	display: none;
+	width: 0px;
+	height:0px;
+}
+
+#tooltip {
+	padding: 10px;
+	font-size: 3vw;
+	background-color: black;
+	color: white;
+	display: none;
+	border-radius: 5vw;
+	margin: auto;
+	text-align: center;
+	opacity: 0.20;
+	position: sticky;
+	right: 42.5%;
+	bottom: 30%;
+}
+
+#dedication {
+	font-size: 2vw;
+}
+
+
+
+
+
+
